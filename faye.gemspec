@@ -11,7 +11,6 @@ Gem::Specification.new do |s|
   s.rdoc_options      = %w(--main README.rdoc)
 
   s.files             = %w(History.txt README.rdoc) +
-                        %w(lib/faye-browser-min.js) +
                         Dir.glob("{spec,lib}/**/*")
   s.require_paths     = ["lib"]
 
